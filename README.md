@@ -36,11 +36,11 @@ The following picture illustrates the database's structure:
 
        Bring up the docker container with the command
        ```
-       $ docker-compose up -d --build
+       $ docker compose up -d --build
        ```
        Then run the the test case script with
        ```
-       $ docker-compose exec pg ./run_tests.sh
+       $ docker compose exec pg ./run_tests.sh
        ```
 1. Upload a link to your forked github repo on sakai.
 
